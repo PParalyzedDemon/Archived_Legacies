@@ -1,0 +1,68 @@
+character-imagecharacter-imagecharacter-imagecharacter-imagecharacter-imagecharacter-imagecharacter-imagecharacter-imagebody {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Changed font for a cleaner look */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+    color: #333; /* Darker text color for better readability */
+}
+
+header {
+    background-color: #0077cc; /* Bright header background */
+    color: white;
+    padding: 15px 0; /* Increased padding for better spacing */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+main {
+    padding: 20px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the profile section */
+}
+
+.character-profile {
+    background-color: white;
+    border-radius: 10px; /* Slightly increased border radius for a softer look */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    padding: 30px; /* Increased padding for a more spacious feel */
+    max-width: 800px;
+    margin: 20px; /* Added margin for spacing around the profile */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.character-profile:hover {
+    transform: translateY(-5px); /* Subtle lift effect on hover */
+}
+
+.character-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners for the image */
+    border: 2px solid #0077cc; /* Border around the image for emphasis */
+}
+
+.character-details {
+    margin-top: 20px;
+}
+
+.character-details p {
+    line-height: 1.8; /* Increased line height for better readability */
+    margin: 10px 0; /* Space between paragraphs */
+    font-size: 16px; /* Slightly larger font size */
+}
+
+.character-details strong {
+    color: #0077cc; /* Highlighting the labels with the theme color */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0077cc; /* Consistent footer background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Shadow for separation */
+    margin-top: 20px; /* Added margin above footer */
+}
